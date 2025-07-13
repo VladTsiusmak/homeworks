@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(201, 201, 201, 0.9);
+}
+
+span {
+    font-size: 50px;
+    background-color: rgba(201, 201, 201, 0.9);
+    background-color: #b6b4b4;
+    padding: 3px 15px;
+}
+
+p {
+    font-size: 50px;
+}
+
+* {
+    margin-left: 20px;
+}
