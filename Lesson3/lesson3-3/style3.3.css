@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 2rem;
+}
+
+section p {
+    width: 90%;
+    font-size: 20px;
+}
+
+.red {
+    background-color: #9c2f2f;
+}
+
+.green {
+    background-color: #4b954b;
+}
+
+.blue {
+    background-color: #69a7bc;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
