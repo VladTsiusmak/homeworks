@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.animation img{
+    height: 500px;
+}
+.ball{
+    animation: ball 3s ease-in-out infinite alternate;
+}
+.road{
+    animation: wave 3s ease-in-out infinite alternate;
+
+}
+@keyframes ball {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    10% {
+        transform: translate(30px, -200px);
+    }
+    20% {
+        transform: translate(60px, 0px);
+    }
+    30% {
+        transform: translate(90px, -200px);
+    }
+    40% {
+        transform: translate(120px, 0px);
+    }
+    50% {
+        transform: translate(150px, -200px);
+    }
+    60% {
+        transform: translate(180px, 0px);
+    }
+    70% {
+        transform: translate(210px, -200px);
+    }
+    80% {
+        transform: translate(240px, 0px);
+    }
+    90% {
+        transform: translate(270px, -200px);
+    }
+    100% {
+        transform: translate(300px, 0px);
+    }
+}

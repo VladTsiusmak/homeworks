@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background: #87ceeb;
+}
+
+.animation img {
+    height: 500px;
+}
+
+.bird {
+    position: absolute;
+    width: 500px;
+    animation: flyBird 3s linear infinite;
+}
+
+@keyframes flyBird {
+    0% {
+        transform: translate(40vw, 60vh);
+    }
+    10% {
+        transform: translate(45vw, 50vh);
+    }
+    20% {
+        transform: translate(50vw, 40vh);
+    }
+    30% {
+        transform: translate(55vw, 45vh);
+    }
+    40% {
+        transform: translate(60vw, 55vh);
+    }
+    50% {
+        transform: translate(55vw, 60vh);
+    }
+    60% {
+        transform: translate(50vw, 50vh);
+    }
+    70% {
+        transform: translate(45vw, 40vh);
+    }
+    80% {
+        transform: translate(40vw, 45vh);
+    }
+    90% {
+        transform: translate(42vw, 55vh);
+    }
+    100% {
+        transform: translate(40vw, 60vh);
+    }
+}
+
+
+
+
