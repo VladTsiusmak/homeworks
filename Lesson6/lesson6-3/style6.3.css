@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+    font-family: "Nunito", sans-serif;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+form{
+    border: 1px solid darkgrey;
+    width: 350px;
+    height: 420px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgrey;
+    width: 350px;
+    height: 70px;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.FB{
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin-bottom: -5px;
+}
+.input-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    width: 70%;
+    padding: 40px 0;
+}
+input[type="text"], input[type="password"]{
+    width: 250px;
+    height: 30px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #42A5F5;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.input-bottom p{
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 15px;
+}
+.facebook a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #344e80;
+}
+.input-bottom a:last-child{
+    color: #344e80;
+    margin-top: 20px;
+}
+.registration a{
+    color: #42A5F5;
+}
